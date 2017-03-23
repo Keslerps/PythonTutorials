@@ -1,0 +1,6 @@
+def missing_char(str, n):
+  temp = ""
+  for x in range(len(str)):
+    if (x != n):
+      temp += str[x]
+  return temp
